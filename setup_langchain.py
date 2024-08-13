@@ -8,7 +8,7 @@ from langchain.prompts import PromptTemplate
 # Connect to Qdrant
 client = QdrantClient("http://localhost:6333")
 
-# Load the embedding model
+# Load the embedding model using HuggingFaceEmbeddings from transformers
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 # Create a vector store using Qdrant and embeddings
