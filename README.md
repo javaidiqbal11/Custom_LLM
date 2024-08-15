@@ -1,20 +1,24 @@
 ## Custom LLM 
 
-Python 3.10
+RUuntime requirement: 
 
+```shell
+Install Python 3.10
+```
 
 **How to run:**
 
 ```shell
    pip install -r requirements.txt
 ```
+
 Technologies Use:
 - LangCahin Framework
 - Qdrant Vector Database
-- RAGs
+- RAGs 
 - Fast API (Deployment)
 
-Following steps followed to complete the application: 
+The following steps followed to complete the application: 
 1. **Set Up Environment:** Install necessary libraries including LangChain, FastAPI, and Qdrant.
 
 2. **Data Preparation:** Collect and preprocess your dataset to be used for training the LLM.
