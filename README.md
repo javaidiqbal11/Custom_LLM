@@ -1,22 +1,19 @@
 ## Custom LLM 
 
-RUuntime requirement: 
+Runtime requirement: 
+[Install Python 3.10](https://www.python.org/downloads/release/python-3100/)
 
-```shell
-Install Python 3.10
-```
-
-**How to run:**
+**Install Required Packages:**
 
 ```shell
    pip install -r requirements.txt
 ```
 
 Technologies Use:
-- LangCahin Framework
-- Qdrant Vector Database
-- RAGs 
-- Fast API (Deployment)
+- [LangChain Framework ](https://www.langchain.com/)
+- [Qdrant Vector Database](https://qdrant.tech/)
+- [RAGs](https://aws.amazon.com/what-is/retrieval-augmented-generation/) 
+- [Fast API (Deployment)](https://fastapi.tiangolo.com/) 
 
 The following steps followed to complete the application: 
 1. **Set Up Environment:** Install necessary libraries including LangChain, FastAPI, and Qdrant.
