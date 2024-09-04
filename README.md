@@ -1,6 +1,6 @@
-## Custom LLM 
+# Custom LLM 
 
-Runtime requirement: 
+### Setup
 [Install Python 3.10](https://www.python.org/downloads/release/python-3100/)
 
 **Install Required Packages:**
@@ -9,7 +9,7 @@ Runtime requirement:
    pip install -r requirements.txt
 ```
 
-Technologies Use:
+Technologies Used:
 - [LangChain Framework ](https://www.langchain.com/)
 - [Qdrant Vector Database](https://qdrant.tech/)
 - [RAGs](https://aws.amazon.com/what-is/retrieval-augmented-generation/) 
