@@ -9,6 +9,11 @@
    pip install -r requirements.txt
 ```
 
+### Execute the main file 
+```bash
+python main.py
+```
+
 Technologies Used:
 - [LangChain Framework ](https://www.langchain.com/)
 - [Qdrant Vector Database](https://qdrant.tech/)
